@@ -87,7 +87,7 @@ function Login() {
               <div className='form-group-01'>
                <Link to={"/home"}>
                 <button className='btn btn-block-01'>Submit</button></Link>
-              <Link to={"/register"}> 
+              <Link to={"/"}> 
                 <button className='btn btn-block-02'>Register</button>
             </Link> </div>
             </form>
