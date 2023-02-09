@@ -11,7 +11,7 @@ function Navbar() {
   const {user} = useSelector(state=> state.ama)
   const userName = (user)=>{
     if(!user){
-      return "Login First"
+      return "User name"
     }else{
       return user.name
     }
